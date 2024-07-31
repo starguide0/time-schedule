@@ -1,0 +1,32 @@
+{
+  "name": "time_schedule",
+  "version": "1.0.0",
+  "description": "setTimeout/clearTimeout 혹은 setInterval/clearInterval 에 설정된 duration 시간은 로직상 동적으로 시간이 변경이 되지않기 때문에 clear 를 해주고 재 설정을 해야한다. 제한 된 device 의 브라우저에서 해당 동작을 자주 발생시키면 GC 동작을 자주 발생하는 현상을 보였다. web api 리소스를 줄이기 위해서 로직상으로 시간을 관리하는 방안을 고안하였다.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starguide0/time-schedule.git"
+  },
+  "keywords": [
+    "setInterval",
+    "setInterval"
+  ],
+  "author": "starguide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starguide0/time-schedule/issues"
+  },
+  "homepage": "https://github.com/starguide0/time-schedule#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4",
+    "vitest": "^2.0.5"
+  }
+}
